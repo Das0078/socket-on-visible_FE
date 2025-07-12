@@ -26,7 +26,7 @@ const DataTable = ({marketData}) => {
         </tbody>
       </table>
     </div>
-    <span style={{textAlign:'center',color:'red',fontSize:'28px',fontWeight:'700'}}>Shrink the screen (800px) to see the sidebar socket getting unsubscribe in dev tools.</span>
+    <span style={{textAlign:'center',color:'red',fontSize:'28px',fontWeight:'700'}}>*Shrink the screen (800px) to see the sidebar socket getting unsubscribe in dev tools.</span>
     </div>
   )
 }
