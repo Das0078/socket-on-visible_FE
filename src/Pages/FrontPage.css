@@ -1,0 +1,11 @@
+.FrontPage_parentDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(198, 199, 195);
+}
+
+.main_layout{
+    display: flex;
+    justify-content: flex-start;
+}
+

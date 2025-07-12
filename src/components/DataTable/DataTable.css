@@ -1,0 +1,51 @@
+.dataTable_parentDiv{
+    border: 1px solid;
+    height: 100vh;
+    width: 80vw;
+}
+
+.table-container {
+  padding: 20px;
+  background-color: #121212;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 255, 128, 0.1);
+  max-width: 600px;
+  margin: auto;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.table-title {
+  margin-bottom: 12px;
+  color: #00ffcc;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.market-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.market-table th,
+.market-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.market-table th {
+  background-color: #1f1f1f;
+  color: #00ffcc;
+  font-weight: 600;
+}
+
+.market-table tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+.market-table tr:hover {
+  background-color: #2a2a2a;
+  transition: background 0.3s ease;
+}
